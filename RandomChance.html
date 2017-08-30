@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RandomChance</title>
+    <script type="text/javascript">
+        
+</head>
+<body>
+        function randomchance(quarters){
+            while (quarters > 0){
+            var i=Math.floor(Math.random()*100);
+            
+            if (i>1){
+              var amount = Math.random()*50+50;
+              return amount + quarters;
+            }
+            }
+          return 0;
+          }
+          randomchance(10);
+          
+    
+</body>
+</html>
